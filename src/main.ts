@@ -7,27 +7,17 @@ import { bootstrapApplication } from '@angular/platform-browser';
   selector: 'my-app',
   standalone: true,
   imports: [CommonModule],
-  template: `
-  <div class="encabezado">
-    <h1 class="letrasencabezado">Practica de {{name}}!</h1>
-    <h2 class="letrasencabezado">Bienvenidos</h2>
-  </div>
-  <div class="ladoderecho">
-  links
-  </div>
-  <div class="ladoizquierdo">
-  contacto
-  </div>
-  <div> 
-  <footer class="pie">
-  <p>&copy; 2023 Mi Empresa. Todos los derechos reservados.</p>
-  <p>Contáctanos: info@miempresa.com</p>
-  </footer>
-  </div>  
-  `,
+  templateUrl:`index.html`,
+  styleUrls: [`global_styles.css`],
+  
 })
 export class App {
-  name = 'Angular';
+  nombre="";
+  apellido="";
+  correo="";
+  celular="";
+  direccion="";
+  
 }
 
 bootstrapApplication(App);

@@ -4,17 +4,33 @@
     <title>Mi Pagina</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="global_styles.css" />
   </head>
   <div class="encabezado">
-  <h1 class="letrasencabezado">Practica de {{name}}!</h1>
+  <h1 class="letrasencabezado">Practica de Angular</h1>
   <h2 class="letrasencabezado">Bienvenidos</h2>
 </div>
 <div class="ladoderecho">
-links
+<label for="nombre">Nombre</label>
+<input id="nombre" {[ngModel]}="nombre"/>
+<label for="apellido">Apellido</label>
+<input id="apellido" {[ngModel]}="apellido"/>
+<label for="correro">Correo</label>
+<input id="correo" {[ngModel]}="correo"/>
+<label for="celular">Celular</label>
+<input id="celular" {[ngModel]}="calular"/>
+<label for="direccion">Direccion</label>
+<input id="direccion" {[ngModel]}="direccion"/>
+<button>Enviar</button>
 </div>
 <div class="ladoizquierdo">
-contacto
+<ul>
+<a class="enlaces" target="_blank" href="https://angular.io/start">Home</a>
+<a class="enlaces">Pagina 2</a>
+<a class="enlaces">Pagina 3</a>
+<a class="enlaces">Pagina 4</a>
+<a class="enlaces">Pagina 5</a>
+</ul>
 </div>
 <div> 
 <footer class="pie">
