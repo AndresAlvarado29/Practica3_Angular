@@ -8,10 +8,22 @@ import { bootstrapApplication } from '@angular/platform-browser';
   standalone: true,
   imports: [CommonModule],
   template: `
-    <h1>Hello from {{name}}!</h1>
-    <a target="_blank" href="https://angular.io/start">
-      Learn more about Angular 
-    </a>
+  <div class="encabezado">
+    <h1 class="letrasencabezado">Practica de {{name}}!</h1>
+    <h2 class="letrasencabezado">Bienvenidos</h2>
+  </div>
+  <div class="ladoderecho">
+  links
+  </div>
+  <div class="ladoizquierdo">
+  contacto
+  </div>
+  <div> 
+  <footer class="pie">
+  <p>&copy; 2023 Mi Empresa. Todos los derechos reservados.</p>
+  <p>Contáctanos: info@miempresa.com</p>
+  </footer>
+  </div>  
   `,
 })
 export class App {

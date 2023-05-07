@@ -1,1 +1,52 @@
-/* Add application styles & imports to this file! */
+.encabezado {
+margin-top: -27px;
+background-color: rgb(5, 196, 138);
+margin-left: -8px;
+margin-right: -8px;
+}
+.letrasencabezado{
+  display: flex;
+  position: relative;
+  top: 3px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 250%;
+  justify-content: center;
+}
+.enlaces{
+  position: relative;
+  right: -20%;
+  top: -5px;
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 20px;
+}
+.pie{
+  position: relative;
+  margin-top: 52px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -8px;
+  margin-left: -8px;
+  background-color: rgb(5, 196, 138);
+  padding: 20px;
+  text-align: center;
+}
+.ladoderecho{
+  position: absolute;
+  width: 25%;
+  float: right;
+  background-color: aqua;
+  margin-top: -33px;
+  padding:20px;
+  right: -8px;
+  
+}
+.ladoizquierdo{
+  position: absolute;
+  width: 25%;
+  float: left;
+  background-color: aqua;
+  margin-top: -33px;
+  padding:20px;
+  left: -8px;
+  
+}
